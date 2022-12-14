@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: url("/images/colors.gif");
+    background-image: url("images/colors.gif");
     background-repeat: repeat;
     background-size: cover;
     

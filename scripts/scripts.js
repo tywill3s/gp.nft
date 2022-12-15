@@ -10,7 +10,7 @@ function getVal() {
         var name = document.getElementById("name");
         var identify = document.getElementById("identification");
         var description = document.getElementById("description");
-        document.getElementById('image').src="images/testimg.gif";
+        document.getElementById('image').src="/images/testimg.gif";
 
         
         name.innerHTML = '"UMA"';

@@ -16,5 +16,5 @@ function getVal() {
 
 
 function redirect() {
-    window.location.href = "https://ghost-pins.com";
+    window.open("https://ghost-pins.com", '_blank');
 }

@@ -17,15 +17,21 @@
 
     </div>
 
-    <div class="setup"></div>
-        <div class="input">
-        <form>
-            <input id="value" type="text">
-        </form>
-        </div>
-        <p id="message"></p>
-        <div class="button"><button onclick="getVal()">Go</button></div>
-        
+ <div class="setup">
+    <div class="input">
+        <input id="value" type="text" value="" onkeyup="logKey(event)">
     </div>
+    <div id="error"><p id="message"></p></div>
+    <div id="output_results" class="output_results">
+        <section class="name" id="name" value=""></section>
+        <section class="identification" id="identification">gp</section>
+        <div class="image"><img id="image"></div>
+        <div class="description" ><p id="title_description">['PIN']</p><p id="description"></p></div>
+        <div class="background"></div>
+    </div>
+</div>
+
+    </body>
+</body>
 </body>
 </html>

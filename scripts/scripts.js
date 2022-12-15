@@ -10,7 +10,7 @@ function getVal() {
         var name = document.getElementById("name");
         var identify = document.getElementById("identification");
         var description = document.getElementById("description");
-        var image = "estimg.gif";
+        var image = "scripts/testimg.gif";
         document.getElementById('image').src=image;
 
         

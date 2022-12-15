@@ -1,7 +1,6 @@
 function getVal() {
     var value = document.getElementById("value");
     var id = value.value;
-    var input = document.getElementById("input");
     console.log(id);
     if (id == "123") {
 
@@ -11,7 +10,7 @@ function getVal() {
         var name = document.getElementById("name");
         var identify = document.getElementById("identification");
         var description = document.getElementById("description");
-        document.getElementById('image').src="/images/testimg.gif";
+        document.getElementById('image').src="images/testimg.gif";
 
         
         name.innerHTML = '"UMA"';

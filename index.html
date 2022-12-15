@@ -5,21 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js"></script>
     <title>gpnft</title>
 
-    <ul>
-        <li><a href="results/index.html">results</a></li>
-      </ul>
 </head>
 <body>
     <div class="setup"></div>
         <div class="input">
         <form>
-            <input type="text">
+            <input id="value" type="text">
         </form>
         </div>
-        <br>
-        <div class="button"><button>Go</button></div>
+        <p id="message"></p>
+        <div class="button"><button onclick="getVal()">Go</button></div>
     </div>
 </body>
 </html>

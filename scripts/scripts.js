@@ -18,7 +18,7 @@ function getVal() {
         name.style.color = "black";
         name.style.fontFamily = "Arial";
         identify.innerHTML = "gp" + id;
-        description.innerHTML = '"Uma" was our first ever design and launch. <br>It encompasses everything we value.';
+        description.innerHTML = '"Uma" was our first ever design and launch. <br>It encompasses everything we value.<br><br>You own no. <strong>53</strong> of <strong>100</strong>';
         value.remove();
 
     } else if (id == "000"){
